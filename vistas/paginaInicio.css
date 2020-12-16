@@ -1,0 +1,9 @@
+.contenedor{
+background-image: url("../imagenes/fondoazul.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+display: flex;
+flex-flow: column nowrap;
+align-items: center;
+}

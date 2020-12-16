@@ -1,6 +1,6 @@
 export const inicio = `
-<div>
-<img src= "./imagenes/imgEstatuaDignidad.jpg" alt="" ></img>
-<div>
+<div class= "contenedor">
+<h1>Pregunta</h1>
+</div>
 
 `;
