@@ -1,9 +1,9 @@
-import { inicio } from "./coverage/paginaInicio";
-import {galeria} from "./coverage/galeria";
+import { inicio } from "./vistas/paginaInicio.js";
+import {galeria} from "./vistas/galeria.js";
 import {changeRoute} from "./routing.js";
 
 const app = () => {
-document.getElementById('root').innerHTML= inicio()
+document.getElementById('root').innerHTML= inicio
     
      window.addEventListener('hashchange', () => {
        changeRoute(window.location.hash);
