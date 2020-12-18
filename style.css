@@ -1,8 +1,22 @@
-.contenedor{
+body{
+margin: 0;
+padding: 0;
+height: 500vh; /** TODO: Eliminar **/
 background-image: url("../imagenes/fondoazul.jpg");
-background-repeat: no-repeat;
-background-size: cover;
-height: 100vh;
+background-size: contain;
+}
+
+#root {
+    cursor: url('../imagenes/perrito.png'), auto;
+}
+
+#perro-sapo-img {
+    width: 100px;
+    position: fixed;
+}
+
+.contenedor {
+min-height: 100vh;
 display: flex;
 flex-flow: column nowrap;
 align-items: center;
