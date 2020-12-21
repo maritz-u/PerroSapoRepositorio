@@ -1,18 +1,50 @@
+#email-img{
+    width: 50px;
+}
+
+
+/* Segunda Pantalla */
+
+#segundaPantalla, h1{font-family: 'Press Start 2P', monospace;
+color: white;
+text-transform: uppercase;
+text-shadow: -2px 2px black, -2px 0 black, 2px 0 black, 0 -2px black;
+text-align: center
+}
+
 body{
 margin: 0;
 padding: 0;
 height: 500vh; /** TODO: Eliminar **/
 background-image: url("../imagenes/fondoazul.jpg");
-background-size: contain;
+background-repeat: repeat;
+background-size: 500px 500px;
 }
 
 #root {
-    cursor: url('../imagenes/perrito.png'), auto;
+cursor: url('../imagenes/perrito.png'), auto;
 }
 
 #perro-sapo-img {
-    width: 100px;
-    position: fixed;
+width: 100px;
+position: fixed;
+}
+
+#botonVolver{
+font-family: 'VT323', monospace;
+background-color: lightgray;
+text-shadow: -1px -1px black, 1px 1px white;
+color: gray;
+-webkit-border-radius: 7px;
+-moz-border-radius: 7px;
+-o-border-radius: 7px;
+border-radius: 7px;
+box-shadow: 0 0.2em grey;
+cursor: pointer;
+font-size: 20px;
+letter-spacing: 1px;
+padding: 8px 12px;
+text-transform: uppercase;
 }
 
 .contenedor {
