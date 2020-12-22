@@ -7,15 +7,20 @@ h1 {
   text-align: center;
 }
 
+#ig-img, #youtube-img,
 #email-img {
-  width: 50px;
+  width: 60px;
+}
+
+#perrito{
+    width: 20%;
 }
 
 body {
   margin: 0;
   padding: 0;
   height: 500vh; /** TODO: Eliminar **/
-  background-image: url("../imagenes/PS-fondo.png");
+  background-image: url("../imagenes/fondo2.png");
   background-repeat: repeat;
   background-size: 500px 500px;
 }
