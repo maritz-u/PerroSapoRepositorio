@@ -1,55 +1,86 @@
-#email-img{
-    width: 50px;
+#primeraPantalla,
+h1 {
+  font-family: "Press Start 2P", monospace;
+  color: #00e500;
+  text-transform: uppercase;
+  text-shadow: -2px 2px black, -2px 0 black, 2px 0 black, 0 -2px black;
+  text-align: center;
 }
 
-
-/* Segunda Pantalla */
-
-#segundaPantalla, h1{font-family: 'Press Start 2P', monospace;
-color: white;
-text-transform: uppercase;
-text-shadow: -2px 2px black, -2px 0 black, 2px 0 black, 0 -2px black;
-text-align: center
+#email-img {
+  width: 50px;
 }
 
-body{
-margin: 0;
-padding: 0;
-height: 500vh; /** TODO: Eliminar **/
-background-image: url("../imagenes/fondoazul.jpg");
-background-repeat: repeat;
-background-size: 500px 500px;
+body {
+  margin: 0;
+  padding: 0;
+  height: 500vh; /** TODO: Eliminar **/
+  background-image: url("../imagenes/PS-fondo.png");
+  background-repeat: repeat;
+  background-size: 500px 500px;
 }
-
+/* 
 #root {
-cursor: url('../imagenes/perrito.png'), auto;
+  cursor: url("../imagenes/perrito.png"), auto;
+} */
+
+.contenedor {
+  min-height: 100vh;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.contenedor ul li {
+  padding: 5px 20px;
+}
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+  list-style: none;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+.contenedor,
+ul li a{
+  background-position: center;
+  background-attachment: fixed;
+  color: #00e500;
+  font-family: "Press Start 2P", monospace;
+  text-transform: uppercase;
+  text-shadow: -2px 2px black, -2px 0 black, 2px 0 black, 0 -2px black;
+  text-align: center;
+  overflow: hidden;
+  text-decoration: none;
 }
 
 #perro-sapo-img {
-width: 100px;
-position: fixed;
+  width: 100px;
 }
 
-#botonVolver{
-font-family: 'VT323', monospace;
-background-color: lightgray;
-text-shadow: -1px -1px black, 1px 1px white;
-color: gray;
--webkit-border-radius: 7px;
--moz-border-radius: 7px;
--o-border-radius: 7px;
-border-radius: 7px;
-box-shadow: 0 0.2em grey;
-cursor: pointer;
-font-size: 20px;
-letter-spacing: 1px;
-padding: 8px 12px;
-text-transform: uppercase;
-}
+/* Segunda Pantalla */
 
-.contenedor {
-min-height: 100vh;
-display: flex;
-flex-flow: column nowrap;
-align-items: center;
+#botonVolver {
+  font-family: "VT323", monospace;
+  background-color: lightgray;
+  text-shadow: -1px -1px black, 1px 1px white;
+  color: gray;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -o-border-radius: 7px;
+  border-radius: 7px;
+  box-shadow: 0 0.2em grey;
+  cursor: pointer;
+  font-size: 20px;
+  letter-spacing: 1px;
+  padding: 8px 12px;
+  text-transform: uppercase;
 }
