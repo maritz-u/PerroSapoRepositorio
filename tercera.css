@@ -1,30 +1,31 @@
-.contenedor-principal{
-display: flex;
-flex-flow: column nowrap;
-align-items: center;
-justify-content: center;
+.contenedor-principal {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
 }
 
-.subtitulo{
+.subtitulo {
   padding-top: 5%;
   padding-bottom: 5%;
 }
 
-h1, h2{
-    font-family: "Press Start 2P", monospace;
-    color: #00e500;
-    text-transform: uppercase;
-    text-shadow: -2px 2px black, -2px 0 black, 2px 0 black, 0 -2px black;
-    text-align: center;
+h1,
+h2 {
+  font-family: "Press Start 2P", monospace;
+  color: #00e500;
+  text-transform: uppercase;
+  text-shadow: -2px 2px black, -2px 0 black, 2px 0 black, 0 -2px black;
+  text-align: center;
 }
 
-h3{
+h3 {
   padding-bottom: 12px;
 }
 
-#link-rrss{
-display: flex;
-justify-content: flex-end;
+#link-rrss {
+  display: flex;
+  justify-content: flex-end;
 }
 
 #ig-img,
@@ -33,34 +34,37 @@ justify-content: flex-end;
   width: 60px;
 }
 
-#enviaVideo, .img-pregunta{
+#enviaVideo,
+.img-pregunta {
   display: flex;
   flex-flow: row nowrap;
 }
 
-.contenedor-imagen{
-height: 70px;
-width: 50px;
-padding-right: 30px;
-padding-left: 30px;
+.contenedor-imagen {
+  height: 70px;
+  width: 50px;
+  padding-right: 30px;
+  padding-left: 30px;
 }
 
-.cam-img{
+.cam-img {
   width: 60px;
   padding-right: 30px;
   padding-left: 30px;
 }
 
-.fuegoImg{
+.fuegoImg {
   height: 100%;
 }
-.cam, .gify, .img-perritfinal{
+.cam,
+.gify,
+.img-perritfinal {
   width: 100%;
 }
 
-.img-final{
-height: auto;
-width: 300px;
+.img-final {
+  height: auto;
+  width: 300px;
 }
 
 body {
@@ -72,28 +76,30 @@ body {
   background-size: 500px 500px;
 }
 
-#eleccion-preguntas h3{
-    font-family: "Press Start 2P", monospace;
-    color: #7e8005;
-    text-transform: uppercase;
-    text-shadow: -2px 2px black, -2px 0 black, 2px 0 black, 0 -2px black;
-    text-align: center;
-    font-size: 15px;
+#eleccion-preguntas h3 {
+  font-family: "Press Start 2P", monospace;
+  color: #7e8005;
+  text-transform: uppercase;
+  text-shadow: -2px 2px black, -2px 0 black, 2px 0 black, 0 -2px black;
+  text-align: center;
+  font-size: 15px;
 }
 
-.gif-protesta{
-width: 500px;
-height: auto;
-padding: 70px 0 70px 0;
+.gif-protesta {
+  width: 500px;
+  height: auto;
+  padding: 70px 0 70px 0;
 }
 
-.contacto-img, .contenedor-final{
-display: flex;
-flex-flow: row nowrap;
-align-items: center;
+.contacto-img,
+.contenedor-final {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
 }
 
-.texto-contacto, .texto-final{
+.texto-contacto,
+.texto-final {
   font-family: "Press Start 2P", monospace;
   color: #00e500;
   text-transform: uppercase;
