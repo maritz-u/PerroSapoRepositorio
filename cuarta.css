@@ -5,6 +5,11 @@
     text-shadow: -2px 2px black, -2px 0 black, 2px 0 black, 0 -2px black;
     text-align: center;
 }
+#link-rrss{
+  display: flex;
+  justify-content: flex-end;
+  }
+  
 
 #ig-img,
 #youtube-img,
