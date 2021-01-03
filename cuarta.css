@@ -5,6 +5,15 @@
   justify-content: center;
 }
 
+.texto-informativo{
+  position: relative;
+  padding: 1em 0;
+}
+
+.testimonio{
+  margin: 2em 0;
+}
+
 .testimonio,
 h1,
 h2,
@@ -13,13 +22,13 @@ h4{
   color: #00e500;
   text-transform: uppercase;
   text-shadow: -2px 2px black, -2px 0 black, 2px 0 black, 0 -2px black;
-  text-align: center;
   padding: 5px 0 5px 0;
 }
 
 #link-rrss{
   display: flex;
   justify-content: flex-end;
+  padding:15px;
 }
 
 #ig-img,
@@ -37,11 +46,35 @@ body{
   background-size: 500px 500px;
 }
 
-.nuphar{
-  width: 100%;
-}
-
 .nuphar-imagen{
   width: 30px;
   height: auto;
+  position: absolute;
+  top: 2em;
+  left: -50px;
+}
+
+.contenedor-boton{
+  display: flex;
+  justify-content: flex-end;
+  padding:20px;
+}
+
+#botonVolver {
+  font-family: "VT323", monospace;
+  background-color: lightgray;
+  text-shadow: -1px -1px black, 1px 1px white;
+  color: gray;
+  border-radius: 7px;
+  box-shadow: 0 0.2em grey;
+  cursor: pointer;
+  font-size: 20px;
+  letter-spacing: 1px;
+  padding: 8px 12px;
+  text-transform: uppercase;
+}
+
+#botonVolver a{
+text-decoration: none;
+flex: 1;
 }

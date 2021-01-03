@@ -10,6 +10,7 @@ h1 {
 #link-rrss{
 display: flex;
 justify-content: flex-end;
+padding:15px;
 }
 
 #ig-img, #youtube-img,
@@ -69,12 +70,21 @@ li {
   margin-bottom: 12px;
   list-style: none;
 }
+
+li:hover > a{
+  animation-name: flash;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
 li:hover::before {
   content: '';
    display: inline-block;
    height: 1em;
    width: 1em;
    background-image: url('./imagenes/n-nuphar.png');
+   margin:0 8px;
    background-size:contain;
    background-repeat:no-repeat;
    animation-name: flash;

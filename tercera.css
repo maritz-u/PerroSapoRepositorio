@@ -26,6 +26,7 @@ h3 {
 #link-rrss {
   display: flex;
   justify-content: flex-end;
+  padding:15px;
 }
 
 #ig-img,
@@ -81,7 +82,6 @@ body {
   color: #7e8005;
   text-transform: uppercase;
   text-shadow: -2px 2px black, -2px 0 black, 2px 0 black, 0 -2px black;
-  text-align: center;
   font-size: 15px;
 }
 
@@ -105,4 +105,29 @@ body {
   text-transform: uppercase;
   text-shadow: -2px 2px black, -2px 0 black, 2px 0 black, 0 -2px black;
   padding-right: 30px;
+}
+
+.contenedor-boton{
+  display: flex;
+  justify-content: flex-end;
+  padding:20px;
+}
+
+#botonVolver {
+  font-family: "VT323", monospace;
+  background-color: lightgray;
+  text-shadow: -1px -1px black, 1px 1px white;
+  color: gray;
+  border-radius: 7px;
+  box-shadow: 0 0.2em grey;
+  cursor: pointer;
+  font-size: 20px;
+  letter-spacing: 1px;
+  padding: 8px 12px;
+  text-transform: uppercase;
+}
+
+#botonVolver a{
+text-decoration: none;
+flex: 1;
 }
