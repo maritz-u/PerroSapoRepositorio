@@ -26,12 +26,12 @@ h4{
 #youtube-img,
 #email-img{
   width: 60px;
+  height: 50px;
 }
 
 body{
   margin: 0;
   padding: 0;
-  height: 500vh; /** TODO: Eliminar **/
   background-image: url("../imagenes/fondo2.png");
   background-repeat: repeat;
   background-size: 500px 500px;
