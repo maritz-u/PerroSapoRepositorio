@@ -61,7 +61,8 @@ h3 {
 .cam,
 .gify,
 .img-perritfinal {
-  width: 100%;
+  width: 50%;
+  padding-left: 40%;
 }
 
 .img-final {
@@ -89,6 +90,10 @@ body {
   width: 500px;
   height: auto;
   padding: 70px 0 70px 0;
+}
+
+.contenedor-final{
+  padding-top: 5%;
 }
 
 .contacto-img,

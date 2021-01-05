@@ -20,17 +20,20 @@ padding:15px;
 }
 
 #perrito{
-  width: 100%;
+  width: 50%;
+  padding-left: 30%;
 }
 #contenedor-imgperrito{
 width: 20%;
 height: auto;
- }
+}
+
 .contenedor-titulo-perrito{
 display: flex;
 flex-flow: row nowrap;
 align-items: center;
 justify-content: center;
+padding-right: 15%;
 }
 
 body {
