@@ -45,10 +45,11 @@ body {
   grid-column-gap: 20px;
   grid-row-gap: 20px;
 }
+
 .container .box {
   background-color: #C2C2C2;
   padding: 20px;
-  color: #fff;
+  color: #000000;
   display: flex;
   align-items: center;
   justify-content: center;
