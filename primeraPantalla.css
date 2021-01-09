@@ -1,0 +1,127 @@
+#caja-de-menu,
+h1 {
+  font-family: "Press Start 2P", monospace;
+  color: #00e500;
+  text-transform: uppercase;
+  text-shadow: -2px 2px black, -2px 0 black, 2px 0 black, 0 -2px black;
+  text-align: center;
+}
+
+#link-rrss{
+display: flex;
+justify-content: flex-end;
+padding:15px;
+}
+
+#ig-img, #youtube-img,
+#email-img {
+  width: 60px;
+  height: 50px;
+}
+
+#perrito{
+  width: 50%;
+  padding-left: 30%;
+}
+#contenedor-imgperrito{
+width: 20%;
+height: auto;
+}
+
+.contenedor-titulo-perrito{
+display: flex;
+flex-flow: row nowrap;
+align-items: center;
+justify-content: center;
+padding-right: 15%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("../imagenes/fondo2.png");
+  background-repeat: repeat;
+  background-size: 500px 500px;
+}
+
+.contenedor-menu {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.contenedor-menu,
+ul li a{
+  background-position: center;
+  background-attachment: fixed;
+  color: #00e500;
+  font-family: "Press Start 2P", monospace;
+  text-transform: uppercase;
+  text-shadow: -2px 2px black, -2px 0 black, 2px 0 black, 0 -2px black;
+  text-align: center;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.contenedor-menu ul li {
+  padding: 5px 20px;
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+  margin-bottom: 12px;
+  list-style: none;
+}
+
+li:hover > a{
+  animation-name: flash;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+li:hover::before {
+  content: '';
+   display: inline-block;
+   height: 1em;
+   width: 1em;
+   background-image: url('./imagenes/n-nuphar.png');
+   margin:0 8px;
+   background-size:contain;
+   background-repeat:no-repeat;
+   animation-name: flash;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Segunda Pantalla */
+
+#botonVolver {
+  font-family: "VT323", monospace;
+  background-color: lightgray;
+  text-shadow: -1px -1px black, 1px 1px white;
+  color: gray;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -o-border-radius: 7px;
+  border-radius: 7px;
+  box-shadow: 0 0.2em grey;
+  cursor: pointer;
+  font-size: 20px;
+  letter-spacing: 1px;
+  padding: 8px 12px;
+  text-transform: uppercase;
+}
+
+@keyframes flash {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
