@@ -23,6 +23,10 @@ h3 {
   padding-bottom: 12px;
 }
 
+.distinto{
+  margin-left: 6%;
+}
+
 #link-rrss {
   display: flex;
   justify-content: flex-end;

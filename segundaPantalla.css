@@ -4,6 +4,7 @@ h1{
     text-transform: uppercase;
     text-shadow: -2px 2px black, -2px 0 black, 2px 0 black, 0 -2px black;
     text-align: center;
+    margin-bottom: 7%;
 }
 
 #link-rrss {
@@ -38,23 +39,15 @@ body {
 .container {
   margin: 20px auto;
   width: 400px;
-  height: 400px;
-  display: grid;
-  grid-template-columns: 200px 200px;
-  grid-row: auto auto;
-  grid-column-gap: 20px;
-  grid-row-gap: 20px;
+  display:flex;
 }
 
 .container .box {
-  background-color: #C2C2C2;
   padding: 20px;
-  color: #000000;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 40px;
-  font-family: sans-serif;
+  outline: none;
 }
 
 .contenedor-boton{
